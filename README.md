@@ -1,4 +1,6 @@
-# 🛡️ NewsDetective AI: Misinformation & Content Reliability Detection System
+git rm "CODE_OF_CONDUCT.md" "Fake News Detection using machine learning.ipynb" "LICENSE"
+git commit -m "Remove unused project files"
+git push origin main# 🛡️ NewsDetective AI: Misinformation & Content Reliability Detection System
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.14-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.55.0-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -139,7 +141,7 @@ The models were trained and tested on the **ISOT Fake News Dataset** comprising 
 ### 1. Clone & Set Up Environment
 
 ```bash
-git clone https://github.com/kapilsinghnegi/Fake-News-Detection.git
+
 cd Fake-News-Detection
 ```
 
@@ -202,18 +204,16 @@ python -m unittest tests/test_detector.py
 
 ---
 
-## 👥 Team Details & Contributors
+## 👥 Team Details 
+GOVINDHARAJ S
+KISHORE R
+RANJITHKUMAR B
+SRI SANTHOSHKUMAR P
 
-| Role | Name | Responsibilities / Contribution |
-| :--- | :--- | :--- |
-| **ML & NLP Engineer** | Kapil Singh Negi | Model Architecture, TF-IDF Vectorization & Feature Engineering |
-| **System Architect / AI Developer** | *[Add Team Member Name]* | Text Preprocessing, XAI Attribution Engine & Dateline Stripping |
-| **Full-Stack / Dashboard Developer** | *[Add Team Member Name]* | Streamlit Dashboard, Plotly Visualizations & Batch Processor |
-| **QA & Data Scientist** | *[Add Team Member Name]* | Model Validation, Benchmarking, Metric Analysis & Test Suite |
+|
 
-*(Feel free to update the names and GitHub handles above to match your project team members).*
+
+
 
 ---
 
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).
